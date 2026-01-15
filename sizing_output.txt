@@ -1,0 +1,129 @@
+  
+On Universal Matter Particle Sizing
+  
+Table of Sizes and Masses for Common Astronomical Objects 
+Object         Ref#                 Size           S-Factor               Mass           M-Factor
+-------------- ----            ---------          ---------          ---------          --------- 
+Galaxy            0            1.000e+21          0.000e+00          2.984e+42          0.000e+00
+Solar System      1            5.988e+12          5.988e-09          1.989e+30          6.666e-13
+Sun               2            1.393e+09          1.393e-12          1.989e+30          6.666e-13
+Avg Planet        3            5.009e+07          5.009e-14          3.333e+27          1.117e-15
+Avg Asteroid      4            1.500e+02          1.500e-19          9.360e+13          3.137e-29
+Space Dust        5            2.000e-06          2.000e-27          1.100e-13          3.686e-56
+Hydrogen          6            1.100e-10          1.100e-31          1.673e-27          5.607e-70
+Proton            7            8.600e-16          8.600e-37          1.673e-27          5.607e-70
+Electron          8            1.000e-14          1.000e-35          9.109e-31          3.053e-73
+Photon            9            1.000e-20          1.000e-41          1.000e-55          3.351e-98
+Quark            10            1.000e-18          1.000e-39          6.151e-27          2.061e-69
+Planck's Length  11            1.616e-35          0.000e+00          0.000e+00          0.000e+00
+----------------------------------------------------------------------------------------------------
+  
+  
+Summary of Calculated Projections by Size and Mass of Universal Matter Objects
+-------------------------------------------------------------------------------------------------
+The size of a particle of {f} is                       1.210e-41        and the mass is 9.380e-97
+The size of a Level I Composite Particle is            1.650e-29        and the mass is 5.248e-56
+The size of a Level II Composite Particle is           5.510e-24        and the mass is 1.869e-42
+The size of a Level III Composite Particle is          1.532e-22        and the mass is 1.115e-39
+The size of a Prime Particle is                        6.587e-19        and the mass is 1.115e-39
+-------------------------------------------------------------------------------------------------
+  
+  
+Level I Composite Particle Summary of Size and Mass
+Projections of Size and Mass
+Level I CP in {f}                                 size 1.650e-29                   mass 5.248e-56
+Level I CP In {f}                                count 1.364e+12*                 count 5.595e+40*
+  
+Calculated Size and Mass
+Level I CP                                        size 2.475e-29                   mass 5.248e-56
+Total Sub-f by                                    size 1.237e-29                   mass 2.558e-85
+                                                       ---------                        ---------
+Level I Composite Particle                        size 3.712e-29                   mass 5.248e-56
+  
+Itemized Details
+Count {f} in Level:                                    1.364e+12*                       5.595e+40*
+Sub-f Percent Size of {f}:                                 15.00%
+Sub-f Rate of Collisions:                                  10.00%
+Count Sub-f in Level:                                  1.364e+11
+Sub-f Mass from Kinetic Energy:                                                         1.876e-96
+  
+*Values are the same.  
+-------------------------------------------------------------------------------------------------
+Level II Composite Particle Summary of Size and Mass
+Projections of Size and Mass
+Level II CP in Level I Units                      size 5.510e-24                   mass 1.869e-42
+Level II CP In Level I Units             count by size 1.484e+05          count by mass 3.561e+13
+  
+Calculated Size and Mass
+Series Join - Example Size and Mass of Two Level 1 Particles X and Y
+     Level I Particle X                           size 3.955e-29                   mass 5.754e-56
+     Level I Particle Y                           size 3.425e-29                   mass 5.626e-56
+  
+Quantitative Join - Example Size and Mass of Two Level 1 Particles X and Y
+     Level I Particle X                           size 2.981e-29                   mass 5.092e-56
+     Level I Particle Y                           size 3.256e-29                   mass 5.910e-56
+  
+Total Level II Series Prtcl at 40% split       by size 4.381e-24                by mass 1.621e-42
+Total Level II Quant. Prtcl at 60% split       by size 5.554e-24                by mass 2.351e-42
+                                                       ---------                        ---------
+Total Level II                                 by size 9.935e-24                by mass 3.972e-42
+  
+Itemized Details
+Count {f} in Level II:                                 2.024e+17                       1.992e+54
+-------------------------------------------------------------------------------------------------
+  
+  
+Level III Composite Particle Summary of Size and Mass
+Projections of Size and Mass
+Level III CP in Level II Units                    size 1.532e-22                   mass 1.115e-39
+Level III CP In Level II Units           count by size 1.542e+01          count by mass 2.808e+02
+  
+Calculated Size and Mass
+Total Level III Effective Conductor            by size 3.065e-22                by mass 2.230e-39
+Total Level III Ineffective Conductor          by size 1.609e-22                by mass 1.171e-39
+                                                       ---------                        ---------
+Total Level III                        Average by size 4.674e-22                by mass 3.401e-39
+  
+Itemized Details
+Count {f} in Level III:                                3.121e+18                       5.594e+56
+-------------------------------------------------------------------------------------------------
+  
+  
+Prime Composite Particle Summary of Size and Mass
+Projections of Size and Mass
+Prime CP in Level III Units                       size 6.587e-19                   mass 1.115e-39
+Prime CP In Level III Units              count by size 4.299e+03          count by mass 1.000e+00
+  
+Calculated Size and Mass
+Effective Conductor
+Prime CP                                          size 1.317e-18                   mass 2.230e-39
+Prime CP                                 count by size 2.149e+03          count by mass 5.000e-01
+  
+Ineffective Conductor
+Prime CP                                          size 6.916e-19                   mass 1.171e-39
+Prime CP                                 count by size 4.094e+03          count by mass 9.524e-01
+  
+Itemized Details
+Count {f} in Prime:                                    1.949e+22                       8.124e+56
+-------------------------------------------------------------------------------------------------
+  
+  
+Hydrogen Atom Summary of Size and Mass
+Prime Particle Summary
+Prime Effective                                   size 1.317e-18                   mass 2.230e-39
+Prime Ineffective                                 size 6.916e-19                   mass 1.171e-39
+Prime Effective                                   size 1.317e-18                   mass 2.230e-39
+                                                       ---------                        ---------
+Prime Tally                                            3.326e-18                        5.631e-39
+  
+Conducted Level 1                                 size 3.712e-20                   mass 5.248e-47
+Conducted Level 2                                 size 9.935e-18                   mass 3.972e-36
+Conducted Between 3 Primes                        size 1.994e-17                   mass 7.943e-36
+Electron (Lvl 3 Eff)                              size 3.065e-22                   mass 2.230e-39
+                                                       ---------                        ---------
+Additions to Tally                                     2.992e-17                        1.192e-35
+  
+                                                       ---------                        ---------
+Grand Tally                                       size 3.324e-17                   mass 1.193e-35
+  
+-------------------------------------------------------------------------------------------------
