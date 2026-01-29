@@ -21,7 +21,7 @@ def main():
     #Define report file path as befits your environment
     #this code puts the sizing_output.txt report file in the same directory as main.py
     current_working_directory = Path(__file__).resolve().parent
-    file_pointer = str(current_working_directory) + "/sizing_output.txt"
+    file_pointer  = str(current_working_directory) + "/sizing_output.txt"
 
     rc = open(file_pointer, 'w', encoding='UTF-8')  #empty report file
     rc.close()

@@ -37,7 +37,7 @@ def level_1_size_and_mass(item_refs_list, item_pass_list, fp):
     #calculate rather than project the CP Lvl I size 
     #the particles of f form into a single, loosely connected composite particle
 
-    prtstr = "Level I Composite Particle Summary of Sizes\n"
+    prtstr  = "Level I Composite Particle Summary of Sizes\n"
     prt.prt_function(fp, prtstr)
     prt.prt_function(fp, "Projections of Sizes\n")
     prt.prt_function(fp, f"Level I CP by size: {{f}}{' ':>33}{lvl_1_cp_size:5.3e} \n")  

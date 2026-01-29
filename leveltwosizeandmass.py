@@ -31,7 +31,7 @@ def level_2_size_and_mass(item_refs_list, item_pass_list, fp):
     
     count_of_lvl_1_in_lvl_2_by_size = cp_lvl_2_size /  item_size
     
-    prtstr = "Level II Composite Particle Summary of Size\n" 
+    prtstr  = "Level II Composite Particle Summary of Size\n" 
     prt.prt_function(fp, prtstr)
     prt.prt_function(fp, "Projections of Size\n") 
     prt.prt_function(fp, f"Level II CP in Level I Units{' ':>22}size {cp_lvl_2_size:5.3e}  \n")   

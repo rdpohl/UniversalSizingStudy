@@ -41,7 +41,7 @@ def find_record(list_name, find_str):
         if x.name == find_str:
             found_bool = True
             break
-        cntr  += 1
+        cntr   += 1
 
     if found_bool:
         return cntr

@@ -42,7 +42,7 @@ def astronomy_objects(item_refs_list, fp):
     prt.prt_function(fp, prtstr)
     prt.prt_function(fp, "  \n")
 
-    #print column header
+    #print column header  
     prt.prt_function(fp, "Table of Sizes for Common Astronomical Objects \n")
     prt.prt_function(fp, "----------------------------------------------------------------------------------------------------\n")
     prt.prt_function(fp, f"{'Object':<15}{'Ref#':>4}{' ':>36}{'Size':>9}{' ':>10}{'S-Factor':>9} \n") 

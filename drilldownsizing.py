@@ -25,13 +25,13 @@ def drill_down_sizing(item_refs_list, fp):
     level_three: int = sun
     prime:       int = solar_sys
 
-    #Relative factored size of {f} as hydrogen compared to the galaxy
+    #Relative factored size of {f} as hydrogen compared to the galaxy   
     f_size_factor = item_refs_list[hydrogen].size / item_refs_list[galaxy].size
     f_mass_factor = item_refs_list[hydrogen].mass / item_refs_list[galaxy].mass
     f_size = item_refs_list[hydrogen].size * f_size_factor
     f_mass = item_refs_list[hydrogen].mass * f_mass_factor
 
-    prtstr = "Summary of Calculated Projections by Size of Universal Matter Objects\n"
+    prtstr  = "Summary of Calculated Projections by Size of Universal Matter Objects\n"
     prt.prt_function(fp, prtstr)
     prt.prt_function(fp, "-------------------------------------------------------------------------------------------------\n")
     prt.prt_function(fp, f"The size of a particle of {{f}} is{' ':>23}{f_size:2.3e} \n") 

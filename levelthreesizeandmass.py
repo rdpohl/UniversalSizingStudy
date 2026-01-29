@@ -70,9 +70,9 @@ def level_3_size_and_mass(item_refs_list, item_pass_list, fp):
     size_of_l2_in_l3_by_series_size_pct_ineff  = item_size_12_ss  
     size_of_l2_in_l3_by_quant_size_pct_ineff   = item_size_34_qs  
     prt.prt_function(fp, f"Percent Splits Ineffective:{' ':>28}Series {percent_split_series_ineff * 100:.0f}% E{' ':>12}Quantitative {percent_split_quant_ineff * 100:.0f}% F\n")
-    tempm = count_of_lvl_2_in_lvl_3_by_size * item_size_12_ss * percent_split_series_ineff
-    tempn = count_of_lvl_2_in_lvl_3_by_size * item_size_34_qs * percent_split_quant_ineff
-    tempo = tempm + tempn
+    tempm  = count_of_lvl_2_in_lvl_3_by_size * item_size_12_ss * percent_split_series_ineff
+    tempn  = count_of_lvl_2_in_lvl_3_by_size * item_size_34_qs * percent_split_quant_ineff
+    tempo  = tempm + tempn
     prt.prt_function(fp, f"Total Size of LIII in LII Units InEffective:{' ':>2}(A*Ba*E) {tempm:5.3e} Tc{' ':>9}(A*Bb*F) {tempn:5.3e} Td\n")
     prt.prt_function(fp, f"Effective Talley:{' ':>60}(Tc+Td) {tempo:5.3e}\n")
 
