@@ -3,20 +3,20 @@ On Universal Matter Particle Sizing
   
 Table of Sizes for Common Astronomical Objects 
 ----------------------------------------------------------------------------------------------------
-Object         Ref#                 Size           S-Factor 
--------------- ----            ---------          --------- 
-Galaxy            0            1.000e+21          0.000e+00          
-Solar System      1            5.990e+12          5.990e-09          
-Sun               2            1.390e+09          1.390e-12          
-Avg Planet        3            5.010e+07          5.010e-14          
-Avg Asteroid      4            1.500e+02          1.500e-19          
-Space Dust        5            2.000e-06          2.000e-27          
-Hydrogen          6            1.060e-10          1.060e-31          
-Proton            7            8.600e-16          8.600e-37          
-Electron          8            1.000e-14          1.000e-35          
-Photon            9            1.000e-20          1.000e-41          
-Quark            10            1.000e-18          1.000e-39          
-Planck's Length  11            1.620e-35          0.000e+00          
+Object         Ref#                                         Size           S-Factor 
+-------------- ----                                    ---------          --------- 
+Galaxy            0                                    1.000e+21          0.000e+00          
+Solar System      1                                    5.990e+12          5.990e-09          
+Sun               2                                    1.390e+09          1.390e-12          
+Avg Planet        3                                    5.010e+07          5.010e-14          
+Avg Asteroid      4                                    1.500e+02          1.500e-19          
+Space Dust        5                                    2.000e-06          2.000e-27          
+Hydrogen          6                                    1.060e-10          1.060e-31          
+Proton            7                                    8.600e-16          8.600e-37          
+Electron          8                                    1.000e-14          1.000e-35          
+Photon            9                                    1.000e-20          1.000e-41          
+Quark            10                                    1.000e-18          1.000e-39          
+Planck's Length  11                                    1.620e-35          0.000e+00          
 ----------------------------------------------------------------------------------------------------
   
   
@@ -53,6 +53,7 @@ Count Sub-f in Level:                                  1.415e+11
   
 *Values are the same.  
 -------------------------------------------------------------------------------------------------
+  
 Level II Composite Particle Summary of Size
 Projections of Size
 Level II CP in Level I Units                      size 5.311e-24  
@@ -60,33 +61,34 @@ Level II CP In Level I Units             count by size 1.484e+05
   
 Calculated Size
 Series Join - Sample Size of Two Level 1 Particles X and Y
-     Level I Particle X                           size 9.205e-30  
-     Level I Particle Y                           size 6.408e-30  
+     Level I Particle X                           size 8.399e-30  
+     Level I Particle Y                           size 9.239e-30  
   
-     Level I Particle X, Y Average**              size 7.807e-30  
+     Level I Particle X, Y Average**              size 8.819e-30  
   
 Quantitative Join - Sample Size of Two Level 1 Particles X and Y
-     Level I Particle X                           size 3.112e-29  
-     Level I Particle Y                           size 3.298e-29  
+     Level I Particle X                           size 2.904e-29  
+     Level I Particle Y                           size 3.280e-29  
   
-     Level I Particle X, Y Average**              size 3.205e-29  
+     Level I Particle X, Y Average**              size 3.092e-29  
   
 ** Will carry these Individual values, for  series and quantitative particles, to  
    Level III where they will be applied as groups. 
 -------------------------------------------------------------------------------------------------
+  
 Level III Composite Particle Summary of Size
 Projections of Size
 Level III                                         size 1.473e-22  
-Level III CP In Level II Units                   count 3.697e+06 A 
+Level III CP In Level II Units                   count 3.708e+06 A 
   
 Calculated Size 
-Individual Sizes for Level II:                  Series 7.807e-30 Ba     Quantitative 3.205e-29 Bb
+Individual Sizes for Level II:                  Series 8.819e-30 Ba     Quantitative 3.092e-29 Bb
   
 Percent Splits Effective:                             Series 30% C            Quantitative 70% D
-Total Size LIII in LII Units Effective:       (A*Ba*C) 8.658e-24 Ta         (A*Bb*D) 8.294e-23 Tb
-Effective Talley:                                                            (Ta+Tb) 9.159e-23
+Total Size LIII in LII Units Effective:       (A*Ba*C) 9.809e-24 Ta         (A*Bb*D) 8.025e-23 Tb
+Effective Talley:                                                            (Ta+Tb) 9.006e-23
   
 Percent Splits Ineffective:                            Series 5% E            Quantitative 95% F
-Total Size of LIII in LII Units InEffective:  (A*Ba*E) 1.443e-24 Tc         (A*Bb*F) 1.126e-22 Td
-Effective Talley:                                                            (Tc+Td) 1.140e-22
+Total Size of LIII in LII Units InEffective:  (A*Ba*E) 1.635e-24 Tc         (A*Bb*F) 1.089e-22 Td
+Effective Talley:                                                            (Tc+Td) 1.105e-22
 -------------------------------------------------------------------------------------------------

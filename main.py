@@ -14,8 +14,6 @@ import drilldownsizing as dd
 import levelonesizeandmass as lvlI
 import leveltwosizeandmass as lvlII
 import levelthreesizeandmass as lvlIII
-import primesizeandmass as prime
-import atom as atm
 
 def main():
     """Version 1.0.0: Initial Release"""

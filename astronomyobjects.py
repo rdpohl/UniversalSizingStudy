@@ -38,7 +38,6 @@ def astronomy_objects(item_refs_list, fp):
             i.m_factor = i.mass / item_refs_list[galaxy].mass
 
     #Now printout the list as part of the report
-    #print Title
     prtstr = "On Universal Matter Particle Sizing\n"
     prt.prt_function(fp, prtstr)
     prt.prt_function(fp, "  \n")
@@ -46,11 +45,11 @@ def astronomy_objects(item_refs_list, fp):
     #print column header
     prt.prt_function(fp, "Table of Sizes for Common Astronomical Objects \n")
     prt.prt_function(fp, "----------------------------------------------------------------------------------------------------\n")
-    prt.prt_function(fp, f"{'Object':<15}{'Ref#':>4}{' ':>12}{'Size':>9}{' ':>10}{'S-Factor':>9} \n") #{' ':10}{'Mass':>9}{' ':>10}{'M-Factor':>9}\n")
-    prt.prt_function(fp, f"{'--------------':<15}{'----':>4}{' ':>12}{'---------':>9}{' ':>10}{'---------':>9} \n") #{' ':>10}{'---------':>9}{' ':>10}{'---------':>9} \n")
+    prt.prt_function(fp, f"{'Object':<15}{'Ref#':>4}{' ':>36}{'Size':>9}{' ':>10}{'S-Factor':>9} \n") 
+    prt.prt_function(fp, f"{'--------------':<15}{'----':>4}{' ':>36}{'---------':>9}{' ':>10}{'---------':>9} \n")
     cntr = 0
     for x in item_refs_list:
-        prt.prt_function(fp, f"{x.name:15}{cntr:>4}{' ':>12}{x.size:>5.3e}{' ':>10}{x.s_factor:5.3e}{' ':>10}\n") #{x.mass:5.3e}{' ':>10}{x.m_factor:5.3e}\n")
+        prt.prt_function(fp, f"{x.name:15}{cntr:>4}{' ':>36}{x.size:>5.3e}{' ':>10}{x.s_factor:5.3e}{' ':>10}\n")
         cntr  += 1
 
     prt.prt_function(fp, "----------------------------------------------------------------------------------------------------\n")

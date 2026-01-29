@@ -25,7 +25,7 @@ def drill_down_sizing(item_refs_list, fp):
     level_three: int = sun
     prime:       int = solar_sys
 
-    #Relative factored size/mass of {f} as hydrogen compared to the galaxy
+    #Relative factored size of {f} as hydrogen compared to the galaxy
     f_size_factor = item_refs_list[hydrogen].size / item_refs_list[galaxy].size
     f_mass_factor = item_refs_list[hydrogen].mass / item_refs_list[galaxy].mass
     f_size = item_refs_list[hydrogen].size * f_size_factor
@@ -34,9 +34,9 @@ def drill_down_sizing(item_refs_list, fp):
     prtstr = "Summary of Calculated Projections by Size of Universal Matter Objects\n"
     prt.prt_function(fp, prtstr)
     prt.prt_function(fp, "-------------------------------------------------------------------------------------------------\n")
-    prt.prt_function(fp, f"The size of a particle of {{f}} is{' ':>23}{f_size:2.3e} \n") #{' ':>8}and the mass is {f_mass:2.3e}\n")
+    prt.prt_function(fp, f"The size of a particle of {{f}} is{' ':>23}{f_size:2.3e} \n") 
 
-    #Relative size and and mass of the three levels of Composite Particles
+    #Relative size and of the three levels of Composite Particles
     #The smallest, Level I
     lvl_1_cp_size_factor = item_refs_list[level_one].size / item_refs_list[galaxy].size
     lvl_1_cp_mass_factor = item_refs_list[level_one].mass / item_refs_list[galaxy].mass
@@ -55,17 +55,16 @@ def drill_down_sizing(item_refs_list, fp):
     lvl_3_cp_size = item_refs_list[hydrogen].size * lvl_3_cp_size_factor
     lvl_3_cp_mass = item_refs_list[hydrogen].mass * lvl_3_cp_mass_factor
 
-    prt.prt_function(fp, f"The size of a Level I Composite Particle is {' ':>11}{lvl_1_cp_size:5.3e} \n") #{' ':>8}and the mass is {lvl_1_cp_mass:5.3e}\n")
-    prt.prt_function(fp, f"The size of a Level II Composite Particle is {' ':>10}{lvl_2_cp_size:5.3e} \n") #{' ':>8}and the mass is {lvl_2_cp_mass:5.3e}\n")
-    prt.prt_function(fp, f"The size of a Level III Composite Particle is {' ':>9}{lvl_3_cp_size:5.3e} \n") #{' ':>8}and the mass is {lvl_3_cp_mass:5.3e}\n")
+    prt.prt_function(fp, f"The size of a Level I Composite Particle is {' ':>11}{lvl_1_cp_size:5.3e} \n") 
+    prt.prt_function(fp, f"The size of a Level II Composite Particle is {' ':>10}{lvl_2_cp_size:5.3e} \n") 
+    prt.prt_function(fp, f"The size of a Level III Composite Particle is {' ':>9}{lvl_3_cp_size:5.3e} \n") 
 
-    #Relative factored size/mass of Prime Particle as our sun compared to the galaxy
+    #Relative factored size of Prime Particle as our sun compared to the galaxy
     prime_size_factor = item_refs_list[prime].size / item_refs_list[galaxy].size
     prime_mass_factor = item_refs_list[prime].mass / item_refs_list[galaxy].mass
     prime_size = item_refs_list[hydrogen].size * prime_size_factor 
     prime_mass = item_refs_list[hydrogen].mass * prime_mass_factor
 
-    #prt.prt_function(fp, f"The size of a Prime Particle is {' ':>23}{prime_size:5.3e} \n") #{' ':>8}and the mass is {prime_mass:5.3e}\n")
     prt.prt_function(fp, "-------------------------------------------------------------------------------------------------\n")
 
     return item_refs_list
