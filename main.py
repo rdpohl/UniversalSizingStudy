@@ -36,8 +36,8 @@ def main():
     item_refs_list, item_pass_list = lvlI.level_1_size_and_mass(item_refs_list, item_pass_list, file_pointer)
     item_refs_list, item_pass_list = lvlII.level_2_size_and_mass(item_refs_list, item_pass_list, file_pointer)
     item_refs_list, item_pass_list = lvlIII.level_3_size_and_mass(item_refs_list, item_pass_list, file_pointer)
-    item_refs_list, item_pass_list = prime.prime_size_and_mass(item_refs_list, item_pass_list, file_pointer)
-    item_refs_list, item_pass_list = atm.build_atom(item_refs_list, item_pass_list, file_pointer)
+    #item_refs_list, item_pass_list = prime.prime_size_and_mass(item_refs_list, item_pass_list, file_pointer)
+    #item_refs_list, item_pass_list = atm.build_atom(item_refs_list, item_pass_list, file_pointer)
 
 if __name__ == '__main__' :
     main()

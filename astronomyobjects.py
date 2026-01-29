@@ -17,17 +17,17 @@ def astronomy_objects(item_refs_list, fp):
 
     # Load the givens into the list
     item_refs_list.append(ri.RefItems('Galaxy',           1.0   * 10**21,  0.0, 2.984 * 10**42,  0.0)) #  0
-    item_refs_list.append(ri.RefItems('Solar System',     5.988 * 10**12,  0.0, 1.989 * 10**30,  0.0)) #  1
-    item_refs_list.append(ri.RefItems('Sun',              1.393 * 10**9,   0.0, 1.989 * 10**30,  0.0)) #  2
-    item_refs_list.append(ri.RefItems('Avg Planet ',      5.009 * 10**7,   0.0, 3.333 * 10**27,  0.0)) #  3
+    item_refs_list.append(ri.RefItems('Solar System',     5.99  * 10**12,  0.0, 1.989 * 10**30,  0.0)) #  1
+    item_refs_list.append(ri.RefItems('Sun',              1.39  * 10**9,   0.0, 1.989 * 10**30,  0.0)) #  2
+    item_refs_list.append(ri.RefItems('Avg Planet ',      5.01  * 10**7,   0.0, 3.333 * 10**27,  0.0)) #  3
     item_refs_list.append(ri.RefItems('Avg Asteroid',     1.5   * 10**2,   0.0, 9.360 * 10**13,  0.0)) #  4
     item_refs_list.append(ri.RefItems('Space Dust',       2.000 * 10**-6,  0.0, 1.100 * 10**-13, 0.0)) #  5
-    item_refs_list.append(ri.RefItems('Hydrogen',         1.1   * 10**-10, 0.0, 1.673 * 10**-27, 0.0)) #  6
+    item_refs_list.append(ri.RefItems('Hydrogen',         1.06  * 10**-10, 0.0, 1.673 * 10**-27, 0.0)) #  6
     item_refs_list.append(ri.RefItems('Proton',           8.6   * 10**-16, 0.0, 1.673 * 10**-27, 0.0)) #  7
     item_refs_list.append(ri.RefItems('Electron',         1.0   * 10**-14, 0.0, 9.109 * 10**-31, 0.0)) #  8
     item_refs_list.append(ri.RefItems('Photon',           1.0   * 10**-20, 0.0, 1.0   * 10**-55, 0.0)) #  9
     item_refs_list.append(ri.RefItems('Quark',            1.0   * 10**-18, 0.0, 6.151 * 10**-27, 0.0)) # 10
-    item_refs_list.append(ri.RefItems('Planck\'s Length', 1.616 * 10**-35, 0.0, 0.0   * 10**0,   0.0)) # 11
+    item_refs_list.append(ri.RefItems('Planck\'s Length', 1.62  * 10**-35, 0.0, 0.0   * 10**0,   0.0)) # 11
 
     # now load claculated items based on the first (0) row
     for i in item_refs_list:
@@ -44,12 +44,13 @@ def astronomy_objects(item_refs_list, fp):
     prt.prt_function(fp, "  \n")
 
     #print column header
-    prt.prt_function(fp, "Table of Sizes and Masses for Common Astronomical Objects \n")
-    prt.prt_function(fp, f"{'Object':<15}{'Ref#':>4}{' ':>12}{'Size':>9}{' ':>10}{'S-Factor':>9}{' ':10}{'Mass':>9}{' ':>10}{'M-Factor':>9}\n")
-    prt.prt_function(fp, f"{'--------------':<15}{'----':>4}{' ':>12}{'---------':>9}{' ':>10}{'---------':>9}{' ':>10}{'---------':>9}{' ':>10}{'---------':>9} \n")
+    prt.prt_function(fp, "Table of Sizes for Common Astronomical Objects \n")
+    prt.prt_function(fp, "----------------------------------------------------------------------------------------------------\n")
+    prt.prt_function(fp, f"{'Object':<15}{'Ref#':>4}{' ':>12}{'Size':>9}{' ':>10}{'S-Factor':>9} \n") #{' ':10}{'Mass':>9}{' ':>10}{'M-Factor':>9}\n")
+    prt.prt_function(fp, f"{'--------------':<15}{'----':>4}{' ':>12}{'---------':>9}{' ':>10}{'---------':>9} \n") #{' ':>10}{'---------':>9}{' ':>10}{'---------':>9} \n")
     cntr = 0
     for x in item_refs_list:
-        prt.prt_function(fp, f"{x.name:15}{cntr:>4}{' ':>12}{x.size:>5.3e}{' ':>10}{x.s_factor:5.3e}{' ':>10}{x.mass:5.3e}{' ':>10}{x.m_factor:5.3e}\n")
+        prt.prt_function(fp, f"{x.name:15}{cntr:>4}{' ':>12}{x.size:>5.3e}{' ':>10}{x.s_factor:5.3e}{' ':>10}\n") #{x.mass:5.3e}{' ':>10}{x.m_factor:5.3e}\n")
         cntr  += 1
 
     prt.prt_function(fp, "----------------------------------------------------------------------------------------------------\n")

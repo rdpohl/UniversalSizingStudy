@@ -1,129 +1,92 @@
   
 On Universal Matter Particle Sizing
   
-Table of Sizes and Masses for Common Astronomical Objects 
-Object         Ref#                 Size           S-Factor               Mass           M-Factor
--------------- ----            ---------          ---------          ---------          --------- 
-Galaxy            0            1.000e+21          0.000e+00          2.984e+42          0.000e+00
-Solar System      1            5.988e+12          5.988e-09          1.989e+30          6.666e-13
-Sun               2            1.393e+09          1.393e-12          1.989e+30          6.666e-13
-Avg Planet        3            5.009e+07          5.009e-14          3.333e+27          1.117e-15
-Avg Asteroid      4            1.500e+02          1.500e-19          9.360e+13          3.137e-29
-Space Dust        5            2.000e-06          2.000e-27          1.100e-13          3.686e-56
-Hydrogen          6            1.100e-10          1.100e-31          1.673e-27          5.607e-70
-Proton            7            8.600e-16          8.600e-37          1.673e-27          5.607e-70
-Electron          8            1.000e-14          1.000e-35          9.109e-31          3.053e-73
-Photon            9            1.000e-20          1.000e-41          1.000e-55          3.351e-98
-Quark            10            1.000e-18          1.000e-39          6.151e-27          2.061e-69
-Planck's Length  11            1.616e-35          0.000e+00          0.000e+00          0.000e+00
+Table of Sizes for Common Astronomical Objects 
+----------------------------------------------------------------------------------------------------
+Object         Ref#                 Size           S-Factor 
+-------------- ----            ---------          --------- 
+Galaxy            0            1.000e+21          0.000e+00          
+Solar System      1            5.990e+12          5.990e-09          
+Sun               2            1.390e+09          1.390e-12          
+Avg Planet        3            5.010e+07          5.010e-14          
+Avg Asteroid      4            1.500e+02          1.500e-19          
+Space Dust        5            2.000e-06          2.000e-27          
+Hydrogen          6            1.060e-10          1.060e-31          
+Proton            7            8.600e-16          8.600e-37          
+Electron          8            1.000e-14          1.000e-35          
+Photon            9            1.000e-20          1.000e-41          
+Quark            10            1.000e-18          1.000e-39          
+Planck's Length  11            1.620e-35          0.000e+00          
 ----------------------------------------------------------------------------------------------------
   
   
-Summary of Calculated Projections by Size and Mass of Universal Matter Objects
+Summary of Calculated Projections by Size of Universal Matter Objects
 -------------------------------------------------------------------------------------------------
-The size of a particle of {f} is                       1.210e-41        and the mass is 9.380e-97
-The size of a Level I Composite Particle is            1.650e-29        and the mass is 5.248e-56
-The size of a Level II Composite Particle is           5.510e-24        and the mass is 1.869e-42
-The size of a Level III Composite Particle is          1.532e-22        and the mass is 1.115e-39
-The size of a Prime Particle is                        6.587e-19        and the mass is 1.115e-39
+The size of a particle of {f} is                       1.124e-41 
+The size of a Level I Composite Particle is            1.590e-29 
+The size of a Level II Composite Particle is           5.311e-24 
+The size of a Level III Composite Particle is          1.473e-22 
 -------------------------------------------------------------------------------------------------
   
+Level I Composite Particle Summary of Sizes
+Projections of Sizes
+Level I CP by size: {f}                                 1.590e-29 
+Level I CP by count: {f}                               1.415e+12* A
   
-Level I Composite Particle Summary of Size and Mass
-Projections of Size and Mass
-Level I CP in {f}                                 size 1.650e-29                   mass 5.248e-56
-Level I CP In {f}                                count 1.364e+12*                 count 5.595e+40*
+Calculated Size
+Expasion Factor (due to sub-f particles):              1.500e+00  B 
+Size of {f} particle:                                  1.124e-41  C 
   
-Calculated Size and Mass
-Level I CP                                        size 2.475e-29                   mass 5.248e-56
-Total Sub-f by                                    size 1.237e-29                   mass 2.558e-85
-                                                       ---------                        ---------
-Level I Composite Particle                        size 3.712e-29                   mass 5.248e-56
+Level I CP:                                    (A*B*C) 2.385e-29  E 
+  
+Per sub-size:                                          1.124e-41  F 
+Expansion Factor:                                      1.124e-41  G 
+Total Sub-f by size:                           (A*F*G) 1.193e-29 
+                                                       --------- 
+Level I Composite Particle                        size 3.578e-29 
   
 Itemized Details
-Count {f} in Level:                                    1.364e+12*                       5.595e+40*
+Count {f} in Level:                                    1.415e+12* 
 Sub-f Percent Size of {f}:                                 15.00%
 Sub-f Rate of Collisions:                                  10.00%
-Count Sub-f in Level:                                  1.364e+11
-Sub-f Mass from Kinetic Energy:                                                         1.876e-96
+Count Sub-f in Level:                                  1.415e+11
   
 *Values are the same.  
 -------------------------------------------------------------------------------------------------
-Level II Composite Particle Summary of Size and Mass
-Projections of Size and Mass
-Level II CP in Level I Units                      size 5.510e-24                   mass 1.869e-42
-Level II CP In Level I Units             count by size 1.484e+05          count by mass 3.561e+13
+Level II Composite Particle Summary of Size
+Projections of Size
+Level II CP in Level I Units                      size 5.311e-24  
+Level II CP In Level I Units             count by size 1.484e+05  
   
-Calculated Size and Mass
-Series Join - Example Size and Mass of Two Level 1 Particles X and Y
-     Level I Particle X                           size 3.769e-29                   mass 5.373e-56
-     Level I Particle Y                           size 3.380e-29                   mass 4.907e-56
+Calculated Size
+Series Join - Sample Size of Two Level 1 Particles X and Y
+     Level I Particle X                           size 9.205e-30  
+     Level I Particle Y                           size 6.408e-30  
   
-Quantitative Join - Example Size and Mass of Two Level 1 Particles X and Y
-     Level I Particle X                           size 3.252e-29                   mass 4.204e-56
-     Level I Particle Y                           size 3.392e-29                   mass 5.282e-56
+     Level I Particle X, Y Average**              size 7.807e-30  
   
-Total Level II Series Prtcl at 40% split       by size 4.244e-24                by mass 1.464e-42
-Total Level II Quant. Prtcl at 60% split       by size 5.917e-24                by mass 2.027e-42
-                                                       ---------                        ---------
-Total Level II                                 by size 1.016e-23                by mass 3.491e-42
+Quantitative Join - Sample Size of Two Level 1 Particles X and Y
+     Level I Particle X                           size 3.112e-29  
+     Level I Particle Y                           size 3.298e-29  
   
-Itemized Details
-Count {f} in Level II:                                 2.024e+17                       1.992e+54
+     Level I Particle X, Y Average**              size 3.205e-29  
+  
+** Will carry these Individual values, for  series and quantitative particles, to  
+   Level III where they will be applied as groups. 
 -------------------------------------------------------------------------------------------------
+Level III Composite Particle Summary of Size
+Projections of Size
+Level III                                         size 1.473e-22  
+Level III CP In Level II Units                   count 3.697e+06 A 
   
+Calculated Size 
+Individual Sizes for Level II:                  Series 7.807e-30 Ba     Quantitative 3.205e-29 Bb
   
-Level III Composite Particle Summary of Size and Mass
-Projections of Size and Mass
-Level III CP in Level II Units                    size 1.532e-22                   mass 1.115e-39
-Level III CP In Level II Units           count by size 1.508e+01          count by mass 3.194e+02
+Percent Splits Effective:                             Series 30% C            Quantitative 70% D
+Total Size LIII in LII Units Effective:       (A*Ba*C) 8.658e-24 Ta         (A*Bb*D) 8.294e-23 Tb
+Effective Talley:                                                            (Ta+Tb) 9.159e-23
   
-Calculated Size and Mass
-Total Level III Effective Conductor            by size 3.065e-22                by mass 2.230e-39
-Total Level III Ineffective Conductor          by size 1.609e-22                by mass 1.171e-39
-                                                       ---------                        ---------
-Total Level III                        Average by size 4.674e-22                by mass 3.401e-39
-  
-Itemized Details
-Count {f} in Level III:                                3.052e+18                       6.364e+56
--------------------------------------------------------------------------------------------------
-  
-  
-Prime Composite Particle Summary of Size and Mass
-Projections of Size and Mass
-Prime CP in Level III Units                       size 6.587e-19                   mass 1.115e-39
-Prime CP In Level III Units              count by size 4.299e+03          count by mass 1.000e+00
-  
-Calculated Size and Mass
-Effective Conductor
-Prime CP                                          size 1.317e-18                   mass 2.230e-39
-Prime CP                                 count by size 2.149e+03          count by mass 5.000e-01
-  
-Ineffective Conductor
-Prime CP                                          size 6.916e-19                   mass 1.171e-39
-Prime CP                                 count by size 4.094e+03          count by mass 9.524e-01
-  
-Itemized Details
-Count {f} in Prime:                                    1.906e+22                       9.243e+56
--------------------------------------------------------------------------------------------------
-  
-  
-Hydrogen Atom Summary of Size and Mass
-Prime Particle Summary
-Prime Effective                                   size 1.317e-18                   mass 2.230e-39
-Prime Ineffective                                 size 6.916e-19                   mass 1.171e-39
-Prime Effective                                   size 1.317e-18                   mass 2.230e-39
-                                                       ---------                        ---------
-Prime Tally                                            3.326e-18                        5.631e-39
-  
-Conducted Level 1                                 size 3.712e-20                   mass 5.248e-47
-Conducted Level 2                                 size 1.016e-17                   mass 3.491e-36
-Conducted Between 3 Primes                        size 2.040e-17                   mass 6.982e-36
-Electron (Lvl 3 Eff)                              size 3.065e-22                   mass 2.230e-39
-                                                       ---------                        ---------
-Additions to Tally                                     3.059e-17                        1.048e-35
-  
-                                                       ---------                        ---------
-Grand Tally                                       size 3.392e-17                   mass 1.048e-35
-  
+Percent Splits Ineffective:                            Series 5% E            Quantitative 95% F
+Total Size of LIII in LII Units InEffective:  (A*Ba*E) 1.443e-24 Tc         (A*Bb*F) 1.126e-22 Td
+Effective Talley:                                                            (Tc+Td) 1.140e-22
 -------------------------------------------------------------------------------------------------
