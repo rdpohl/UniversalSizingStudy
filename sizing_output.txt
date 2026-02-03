@@ -1,5 +1,5 @@
   
-On Universal Matter Particle Sizing 
+On Universal Matter Particle Sizing
   
 Table of Sizes for Common Astronomical Objects 
 ----------------------------------------------------------------------------------------------------
@@ -26,6 +26,7 @@ The size of a particle of {f} is                       1.124e-41
 The size of a Level I Composite Particle is            1.590e-29 
 The size of a Level II Composite Particle is           5.311e-24 
 The size of a Level III Composite Particle is          1.473e-22 
+The size of an Advanced Level III Particle is          6.349e-19 
 -------------------------------------------------------------------------------------------------
   
 Level I Composite Particle Summary of Sizes
@@ -61,34 +62,54 @@ Level II CP In Level I Units             count by size 1.484e+05
   
 Calculated Size
 Series Join - Sample Size of Two Level 1 Particles X and Y
-     Level I Particle X                           size 8.399e-30  
-     Level I Particle Y                           size 9.239e-30  
+     Level I Particle X                           size 9.835e-30  
+     Level I Particle Y                           size 9.969e-30  
   
-     Level I Particle X, Y Average**              size 8.819e-30  
+     Level I Particle X, Y Average**              size 9.902e-30  
   
 Quantitative Join - Sample Size of Two Level 1 Particles X and Y
-     Level I Particle X                           size 2.904e-29  
-     Level I Particle Y                           size 3.280e-29  
+     Level I Particle X                           size 3.513e-29  
+     Level I Particle Y                           size 3.074e-29  
   
-     Level I Particle X, Y Average**              size 3.092e-29  
+     Level I Particle X, Y Average**              size 3.294e-29  
   
 ** Will carry these Individual values, for  series and quantitative particles, to  
    Level III where they will be applied as groups. 
 -------------------------------------------------------------------------------------------------
-  
 Level III Composite Particle Summary of Size
 Projections of Size
 Level III                                         size 1.473e-22  
-Level III CP In Level II Units                   count 3.708e+06 A 
+Level III CP In Level II Units                   count 3.439e+06 A 
   
 Calculated Size 
-Individual Sizes for Level II:                  Series 8.819e-30 Ba     Quantitative 3.092e-29 Bb
+Individual Sizes for Level II:                  Series 9.902e-30 Ba     Quantitative 3.294e-29 Bb
   
 Percent Splits Effective:                             Series 30% C            Quantitative 70% D
-Total Size LIII in LII Units Effective:       (A*Ba*C) 9.809e-24 Ta         (A*Bb*D) 8.025e-23 Tb
-Effective Talley:                                                            (Ta+Tb) 9.006e-23
+Total Size LIII in LII Units Effective:       (A*Ba*C) 1.022e-23 Ta         (A*Bb*D) 7.930e-23 Tb
+Effective Talley:                                                            (Ta+Tb) 8.952e-23 G
   
-Percent Splits Ineffective:                            Series 5% E            Quantitative 95% F
-Total Size of LIII in LII Units InEffective:  (A*Ba*E) 1.635e-24 Tc         (A*Bb*F) 1.089e-22 Td
-Effective Talley:                                                            (Tc+Td) 1.105e-22
+Percent Splits Ineffective:                            Series 10% E            Quantitative 90% F
+Total Size of LIII in LII Units InEffective:  (A*Ba*E) 3.406e-24 Tc         (A*Bb*F) 1.020e-22 Td
+Ineffective Talley:                                                          (Tc+Td) 1.054e-22
+  
+Percent Complementary Size Difference:                       25% H            
+Total Size of Complementary Particle:          (G*H*2) 4.476e-23 Tz
+-------------------------------------------------------------------------------------------------
+Advanced Level III Composite Particle Summary 
+Projections of Size 
+In Regular Level III Units                        size 6.349e-19  
+In Regular Level III Units               count by size 4.309e+03  
+  
+Calculated Sizes
+Effective
+Advanced Level III CP                             size 3.079e-16  
+Advanced Level III Units                 count by size 7.093e+03  
+  
+Ineffective
+Advanced Level III CP                             size 3.624e-16  
+Advanced Level III Units                 count by size 6.026e+03  
+  
+Complementary
+Complementary CP                                  size 4.476e-23  
+Complementary in Level III Unitss        count by size 1.419e+04  
 -------------------------------------------------------------------------------------------------

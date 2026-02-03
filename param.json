@@ -1,0 +1,15 @@
+{
+    "levelone": {
+        "fluff": 1.5,
+        "rate_of_sub_f": 0.10,  
+        "percent_factor": 0.15, 
+        "exp_from_ke": 5.0
+    },
+    "levelthree":{
+        "percent_split_series_eff": 0.3,
+        "percent_split_quant_eff":  0.7,
+        "percent_split_series_ineff": 0.1, 
+        "percent_split_quant_ineff": 0.9,
+        "percent_eff_comp": 0.25
+    }
+}
